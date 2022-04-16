@@ -1,0 +1,140 @@
+body{
+    background-color: #1E1E1E;
+}
+
+.nothing{
+    text-decoration: none;
+}
+
+.nothing:hover{
+    text-decoration: none;
+}
+
+.frantace-page{
+    padding: 10px 10% 10px 10%;
+    color:#8097A0;
+}
+
+.new-h1{
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 3rem;
+}
+
+.new-h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.top-intro-section{
+    margin-top:80px;
+}
+
+.pricing-section h1{
+    color:#8097A0;
+}
+.bullet-points{
+    list-style-type: none;
+}
+
+.bullet-points li{
+    line-height: 2em;
+}
+
+.card-factance{
+    border: 1px solid #1B2C3D;
+    border-radius:20px; 
+    margin: 5px;
+}
+
+.what-we-do h2:hover{
+    border: 2px solid #007ACC;
+    cursor: pointer;
+}
+
+.card-factance:hover{
+    border: 2px solid #007ACC;
+    cursor: pointer;
+}
+
+.social-media-icon{
+    text-decoration: none;
+    color: #8097A0;
+    border: 1px solid #8097A0;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+}
+
+hr{
+    background-color: #8097A0;
+}
+
+.collapse-factance{
+    background-color: #1B2C3D;
+    margin-bottom: 10px;
+}
+
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.what-we-do h2{
+    background-color: #1D2E40;
+    padding: 10px;
+}
+
+.factance-btn-small{
+    width: 20%;
+}
+
+.factance-pricetab1{
+    background-color: #8097A0;
+    padding: 20px;
+    margin:10px;
+}
+
+.factance-pricetab1 p{
+    font-weight: 500;
+}
+
+.factance-active{
+    border:5px solid #5D5DFF; 
+}
+
+.factance-most-popular{
+    background-color: #5D5DFF;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.languages-tool span{
+    display: inline-block;
+    font-weight: 500;
+    border: 1px solid #1C2D3F;
+    padding: 20px;
+}
+
+.flex-fractance{
+    display:flex;
+    justify-content: center;
+}
+
+.code-generator{
+    padding: 20px;
+    background-color: #1F3042;
+}
+
+.code-generator:hover{
+    border: 2px solid #007ACC;
+    cursor: pointer;
+}
+
+.code-generator h2{
+    color: #FFA612;
+}
