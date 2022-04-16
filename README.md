@@ -1,4 +1,4 @@
-# factance
+# Factance
 Our first business web going to help us boost 🚀
 
 
