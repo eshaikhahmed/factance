@@ -144,8 +144,15 @@ include('header.php');
            
             <a href="#" class="nothing"> 
                 <div class="code-generator">
-                    <h2>Code Generator</h2>
-                    <p>🏝️ Create spring boot REST APIs within 2 mins </p> 
+                    <h2>CodeFactory</h2>
+                    <p>🏝️ Create spring boot REST APIs <br />within 2 mins </p> 
+                </div>
+            </a>
+
+            <a href="#" class="nothing"> 
+                <div class="writein">
+                    <h2>WriteIn</h2>
+                    <p>🏝️  Tool to write amazing LinkedIn <br> posts with emojis</p> 
                 </div>
             </a>
         </div>

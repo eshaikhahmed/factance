@@ -125,6 +125,21 @@ hr{
     justify-content: center;
 }
 
+.writein{
+    padding: 20px;
+    background-color: #1F3042;
+    margin-left: 5px;
+}
+
+.writein:hover{
+    border: 2px solid #007ACC;
+    cursor: pointer;
+}
+
+.writein h2{
+    color: #FFA612;
+}
+
 .code-generator{
     padding: 20px;
     background-color: #1F3042;
