@@ -1,5 +1,5 @@
 <?php 
-$title = "Factance - a way to ease software development";
+$title = "Pricing helps you decide your business";
 $header_data = '';
 include('header.php');
 
