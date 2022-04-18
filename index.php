@@ -137,7 +137,7 @@ include('header.php');
     </div>
 </section>
 
-<section class="product-section">
+<section class="product-section" id="product_section">
     <div class="container frantace-page">
     <h1 class="text-center new-h1">Our Products 👇</h1>
         <div class="flex-fractance">
@@ -145,27 +145,51 @@ include('header.php');
             <a href="#" class="nothing"> 
                 <div class="code-generator">
                     <h2>CodeFactory</h2>
-                    <p>🏝️ Create spring boot REST APIs <br />within 2 mins </p> 
+                    <p>🏝️ Build Spring Boot <br />REST APIs within 2 mins </p> 
                 </div>
             </a>
 
             <a href="#" class="nothing"> 
                 <div class="writein">
                     <h2>WriteIn</h2>
-                    <p>🏝️  Tool to write amazing LinkedIn <br> posts with emojis</p> 
+                    <p>🏝️  Write amazing LinkedIn <br> posts with emojis</p> 
                 </div>
             </a>
         </div>
     </div>
 </section>
 
-<section class="blog-section">
+<section class="blog-section" id="blog_section">
     <div class="container frantace-page">
     <h1 class="text-center new-h1">Our Latest Blogs 🛡️</h1>
         <h2 class="text-center">..Soon..</h2>
     </div>
 </section>
 
+
+<section class="top-intro-section" id="about-section">
+    <div class="container frantace-page">
+        <h1 class="text-center new-h1">We are geeks 🔥</h1>
+        <div class="row">
+           
+            <ul class="col-md-6 bullet-points">
+                <li>🧲 Always respond calls/messages on time</li>
+                <li>🧲 Support easy implementation </li>
+            </ul>
+
+            <ul class="col-md-6 bullet-points">
+                <li>🧲 Very trust worthy</li>
+                <li>🧲 Always refund incase deliveries are missed</li>
+            </ul>
+        </div>
+        <div class="notice-bar">
+            <h3>Say hi...</h3>
+            <p>Hit us on to grab any plan 
+                <a href='mailto:sales@factance.com'><strong>sales@factance.com</strong></a>
+            </p>
+        </div>
+    </div>
+</section>
 
 <?php 
 include("footer.php");

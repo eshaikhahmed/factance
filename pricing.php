@@ -29,7 +29,7 @@ include('header.php');
         <div class="row">
             <div class="col-md-5 card factance-pricetab1">
                 <h3>Basic Website</h3>
-                <h2>$100</h2>
+                <h2>$200</h2>
                 <hr />
                 <p>🏝️ 5 Informative Pages</p>
                 <p>🏝️ Support for mobile responsiveness </p>
@@ -39,7 +39,7 @@ include('header.php');
                 <p><strike>🏝️ Integration of mail services</strike></p>
                 <p><strike>🏝️ Upto 10 Blogs</strike></p>
                 <p><strike>🏝️ 6 Month Support </strike></p>
-                <button class="btn btn-primary">Purchase Now</button>
+                <!-- <button class="btn btn-primary">Purchase Now</button> -->
             </div>
 
             <div class="col-md-5 card factance-pricetab1 factance-active">
@@ -55,7 +55,7 @@ include('header.php');
                 <p>🏝️ Integration of mail services</p>
                 <p>🏝️ Upto 10 Blogs</p>
                 <p>🏝️ 6 Month Support</p>
-                <button class="btn btn-primary">Purchase Now</button>
+                <!-- <button class="btn btn-primary">Purchase Now</button> -->
             </div>
 
             <div class="col-md-5 card factance-pricetab1">
@@ -70,7 +70,7 @@ include('header.php');
                 <p>🏝️ SaaS websites</p>
                 <p>🏝️ 6 Month Support</p>
 
-                <button class="btn btn-primary" style="background-color:#E8750C;">Book Call Now</button>
+                <!-- <button class="btn btn-primary" style="background-color:#E8750C;">Book Call Now</button> -->
                 
             </div>
 
@@ -90,7 +90,7 @@ include('header.php');
                 <p>🏝️ Functional app</p>
                 <p>🏝️ 6 Month Support</p>
 
-                <button class="btn btn-primary" style="background-color:#E8750C;">Book Call Now</button>
+                <!-- <button class="btn btn-primary" style="background-color:#E8750C;">Book Call Now</button> -->
                 
             </div>
         </div>
@@ -105,7 +105,7 @@ include('header.php');
                 <p>🏝️ Deployment of your Java/PHP/Python/ReactJs App Only</p>
                 <p>🏝️ Deploying 1 developed project onto AWS </p>
                 <p>🏝️ 1 Month Support</p>
-                <button class="btn btn-primary" >Purchase Now</button>
+                <!-- <button class="btn btn-primary" >Purchase Now</button> -->
                 
             </div>
 
@@ -119,7 +119,7 @@ include('header.php');
                 <p>🏝️ CI/CD - GitLab/GitHub Integration</p>
                 <p>🏝️ Deployment of your Java/Python/ReactJs App Only</p>
                 <p>🏝️ 2 Month Support</p>
-                <button class="btn btn-primary" style="background-color:#E8750C;">Book Call Now</button>
+                <!-- <button class="btn btn-primary" style="background-color:#E8750C;">Book Call Now</button> -->
                 
             </div>
         </div>
@@ -127,6 +127,19 @@ include('header.php');
     </div>
 </section>
 
+<section>
+    <div class="container ">
+        <div class="notice-bar">
+            <h3>We're on the way to add payment gateway...</h3>
+            <p>Hit us on to grab any plan 
+                <a href='mailto:sales@factance.com'><strong>sales@factance.com</strong></a>
+            </p>
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+</section>
 <?php 
 include("footer.php");
 ?>

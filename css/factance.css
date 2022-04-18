@@ -153,3 +153,37 @@ hr{
 .code-generator h2{
     color: #FFA612;
 }
+
+textarea{
+    background-color: #1B2C3D!important;
+    border:none!important;
+    color:#8097A0!important;
+    font-size: 18px!important;
+}
+
+textarea:hover{
+    cursor: pointer;
+    border: 1px solid #007ACC!important;
+}
+
+.fullname, .email{
+    background-color: #1B2C3D!important;
+    border:none!important;
+    color:#8097A0!important;
+    font-size: 18px!important;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.enquiry-section input:hover{
+    cursor: pointer;
+    border: 1px solid #007ACC!important;
+}
+
+.notice-bar{
+    background-color: #FFA612;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px; 
+}

@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <link rel="stylesheet" href="css/factance.css">
-      <link rel="icon" type="image/x-icon" href="images/icon.png">
+      <link rel="icon" type="image/x-icon" href="images/fclogo.png">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -25,10 +25,10 @@
     word-spacing: 1px;
     line-height: 2px;
     font-size: 30px;">
-               <!-- <img src="images/app_icon.png" class="brand-icon" /> -->
+               <!-- <img src="images/fclogo.png" width="52" class="brand-icon" /> -->
                
               <span >
-              <span style="color:#007ACC;">Fact</span>ance
+              <span style="color:#007ACC;">Fact</span><span style="color:#B3CDE0;">ance</span>
               </span>
                <!-- <span style="font-size:2.15em;font-weight:bolder;">DostiMart</span>
                   <span style="font-size:12px;font-weight:  200;">Parbhani</span> -->
@@ -43,10 +43,10 @@
                   <a class="nav-link" href="index.php">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="coming.php">Products</a>
+                  <a class="nav-link" href="index.php#product_section">Products</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="coming.php">Blogs</a>
+                  <a class="nav-link" href="index.php#blog_section">Blogs</a>
                </li>
               
             </ul>

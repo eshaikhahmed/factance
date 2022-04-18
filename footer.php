@@ -5,11 +5,11 @@
                   <h3>Company</h3>
                   <ul class="list-group list-group-flush">
                      <li class="list-group-item" style="background:none;border:none;padding:5px;">
-                      <a class="dosti-link" href="about.php">About</a>
+                      <a class="dosti-link" href="index.php#about-section">About</a>
                      </li>
-                     <li class="list-group-item" style="background:none;border:none;padding:5px;">
+                     <!-- <li class="list-group-item" style="background:none;border:none;padding:5px;">
                         <a class="dosti-link" href="#contact-section">Contact</a>
-                     </li>
+                     </li> -->
                   </ul>
                </div>
                <div class="col-md-4">
@@ -26,18 +26,18 @@
                      <h2>Follow Us</h2>
                      <!--<span class="rounded" style="padding:5px;margin:2px;">Facebook</span>
                         <span class="rounded" style="padding:5px;margin:2px;">Twitter</span>-->
-                     <a href="https://www.instagram.com/dosti_mart/?hl=en" target="_blank" class="instagram-link social-btn">
+                     <!-- <a href="https://www.instagram.com/dosti_mart/?hl=en" target="_blank" class="instagram-link social-btn">
                         <span class="rounded" style="padding:5px;margin:2px;">Instagram</span>
-                     </a>
-                     <a href="https://www.linkedin.com/company/dostimart/" target="_blank"  class="linkedIn-link social-btn">
+                     </a> -->
+                     <a href="https://www.linkedin.com/company/factance" target="_blank"  class="linkedIn-link social-btn">
                         <span class="rounded" style="padding:5px;margin:2px;">LinkedIn</span>
                      </a>
-                     <a href="https://www.linkedin.com/company/dostimart/" target="_blank"  class="linkedIn-link social-btn">
+                     <!-- <a href="https://www.linkedin.com/company/dostimart/" target="_blank"  class="linkedIn-link social-btn">
                         <span class="rounded" style="padding:5px;margin:2px;">Twitter</span>
                      </a>
                      <a href="https://www.linkedin.com/company/dostimart/" target="_blank"  class="linkedIn-link social-btn">
                         <span class="rounded" style="padding:5px;margin:2px;">Facebook</span>
-                     </a>
+                     </a> -->
                   </div>
                   <hr />
                    
