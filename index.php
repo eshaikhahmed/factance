@@ -142,14 +142,14 @@ include('header.php');
     <h1 class="text-center new-h1">Our Products 👇</h1>
         <div class="flex-fractance">
            
-            <a href="#" class="nothing"> 
+            <a href="https://factance.com/codefactory" class="nothing"> 
                 <div class="code-generator">
                     <h2>CodeFactory</h2>
                     <p>🏝️ Build Spring Boot <br />REST APIs within 2 mins </p> 
                 </div>
             </a>
 
-            <a href="#" class="nothing"> 
+            <a href="https://factance.com/writein" class="nothing"> 
                 <div class="writein">
                     <h2>WriteIn</h2>
                     <p>🏝️  Write amazing LinkedIn <br> posts with emojis</p> 
