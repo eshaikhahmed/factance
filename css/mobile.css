@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+    .factance-btn-small {
+        width: 100%;
+    }
+
+    .flex-fractance {
+        flex-direction: column;
+    }
+
+    .writein {
+        margin-left: 5px;
+    }
+
+    .nothing {
+        margin-bottom: 10px;
+    }
+}

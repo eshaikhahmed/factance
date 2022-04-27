@@ -23,9 +23,9 @@ include('header.php');
 </section>
 <section class="what-we-do-section">
     <div class="container frantace-page">
-        <h1 class="text-center new-h1">What we do</h1>
+        <h2 class="text-center new-h1">What we do</h1>
         <div class="what-we-do">
-            <h2 data-target="#website_development" data-toggle="collapse">🏷️ Website Development </h2>
+            <h3 data-target="#website_development" data-toggle="collapse">🏷️ Website Development </h2>
             <div class="collapse" id="website_development">
                 <div class="card card-body collapse-factance">
                     <p>🏝️ Smooth and easy navigation</p>
@@ -38,7 +38,7 @@ include('header.php');
                 </div>
                 
             </div>
-            <h2 data-target="#android_development" data-toggle="collapse">🏷️ Android Development</h2>
+            <h3 data-target="#android_development" data-toggle="collapse">🏷️ Android Development</h2>
 
             <div class="collapse" id="android_development">
                 <div class="card card-body collapse-factance">
@@ -54,7 +54,7 @@ include('header.php');
                 
             </div>
 
-            <h2 data-target="#cicd_deployment" data-toggle="collapse">🏷️ CI/CD Deployment - Gitlab GitHub</h2>
+            <h3 data-target="#cicd_deployment" data-toggle="collapse">🏷️ CI/CD Deployment - Gitlab GitHub</h2>
 
             <div class="collapse" id="cicd_deployment">
                 <div class="card card-body collapse-factance">
@@ -77,7 +77,7 @@ include('header.php');
 
 <section class="product-section">
     <div class="container frantace-page">
-    <h1 class="text-center new-h1">Our expertise and experts ⚔️</h1>
+    <h2 class="text-center new-h1">Our expertise and experts ⚔️</h1>
         <div class="row">
            <div class="col-md-5 card-factance">
                 <ul class="bullet-points">
@@ -93,13 +93,11 @@ include('header.php');
                     </li>
                     <li> <hr /></li>
                     <li>
-                        <a href="#" class="social-media-icon" >
+                        <a href="https://www.linkedin.com/in/skarshad" target="_blank" class="social-media-icon" >
                                 LinkedIn
                         </a>
-                        <a href="#" class="social-media-icon" >
-                                Twitter
-                        </a>
-                        <a href="#" class="social-media-icon" >
+                      
+                        <a href="https://www.youtube.com/channel/UCvGRh9i3lfT9CgGu1TLcukw" target="_blank" class="social-media-icon" >
                                 YouTube
                         </a>
                         
@@ -109,11 +107,12 @@ include('header.php');
 
             <div class="col-md-5 card-factance">
                 <ul class="bullet-points">
-                    <li>Ejaz Shaikh - Android | Python | Java Developer</li>
+                    <li>Ejaz Shaikh - Founder@Factance</li>
                     <li></li>
                     <li>
                         <p>
-                          He is passionate to develop softwares on daily basis. 
+                          He is passionate to softwares and building it. 
+                          He has developed many web and mobile apps 
 
                         </p>
                     </li>
@@ -122,10 +121,10 @@ include('header.php');
                     </li>
                     <li> <hr /></li>
                     <li>
-                        <a href="#" class="social-media-icon" >
+                        <a href="https://www.linkedin.com/in/eshaikhahmed" target="_blank" class="social-media-icon" >
                                 LinkedIn
                         </a>
-                        <a href="#" class="social-media-icon" >
+                        <a href="https://twitter.com/eshaikhahmed" target="_blank" class="social-media-icon" >
                                 Twitter
                         </a>
                       
@@ -139,19 +138,19 @@ include('header.php');
 
 <section class="product-section" id="product_section">
     <div class="container frantace-page">
-    <h1 class="text-center new-h1">Our Products 👇</h1>
+    <h2 class="text-center new-h1">Our Products 👇</h2>
         <div class="flex-fractance">
            
             <a href="https://factance.com/codefactory" class="nothing"> 
                 <div class="code-generator">
-                    <h2>CodeFactory</h2>
+                    <h3>CodeFactory</h3>
                     <p>🏝️ Build Spring Boot <br />REST APIs within 2 mins </p> 
                 </div>
             </a>
 
             <a href="https://factance.com/writein" class="nothing"> 
                 <div class="writein">
-                    <h2>WriteIn</h2>
+                    <h3>WriteIn</h3>
                     <p>🏝️  Write amazing LinkedIn <br> posts with emojis</p> 
                 </div>
             </a>
@@ -161,8 +160,8 @@ include('header.php');
 
 <section class="blog-section" id="blog_section">
     <div class="container frantace-page">
-    <h1 class="text-center new-h1">Our Latest Blogs 🛡️</h1>
-        <h2 class="text-center">..Soon..</h2>
+    <h2 class="text-center new-h1">Our Latest Blogs 🛡️</h2>
+        <h3 class="text-center">..Soon..</h3>
     </div>
 </section>
 

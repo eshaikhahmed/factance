@@ -49,7 +49,7 @@ body{
     margin: 5px;
 }
 
-.what-we-do h2:hover{
+.what-we-do h3:hover{
     border: 2px solid #007ACC;
     cursor: pointer;
 }
@@ -83,7 +83,7 @@ hr{
     -webkit-transform: rotate(45deg);
 }
 
-.what-we-do h2{
+.what-we-do h3{
     background-color: #1D2E40;
     padding: 10px;
 }
@@ -111,6 +111,7 @@ hr{
     padding: 10px;
     border-radius: 5px;
     color: #FFFFFF;
+    display: inline-block;
 }
 
 .languages-tool span{
