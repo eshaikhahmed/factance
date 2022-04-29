@@ -157,11 +157,71 @@ include('header.php');
         </div>
     </div>
 </section>
+<?php 
+include('config/config.php');
+include('common.php');
+
+$query="SELECT blogid,blog_title,blog_shortdetails,blog_technology ,blog_image,blog_author,published_date
+				FROM blogs ORDER BY published_date DESC LIMIT 0,2";
+$values=null;
+$content='';
+$database=new DatabaseManager();
+$rows=$database->safeRetrieve($query,$values);
+$total_rows=count($rows);
+
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+
+?>
 
 <section class="blog-section" id="blog_section">
     <div class="container frantace-page">
-    <h2 class="text-center new-h1">Our Latest Blogs 🛡️</h2>
-        <h3 class="text-center">..Soon..</h3>
+        <h2 class="text-center new-h1">Our Latest Blogs 🛡️</h2>
+        <div class="blog-container">
+        <?php 
+			for($k=0;$k<$total_rows;$k++)
+			{
+				$blogid=$rows[$k]['blogid'];
+				$blog_title=getDotsAfter($rows[$k]['blog_title'],30);
+				$title_show=$rows[$k]['blog_title'];
+				$blog_shortdetails=getDotsAfter($rows[$k]['blog_shortdetails'],110);
+				$blog_technology=strtolower($rows[$k]['blog_technology']);
+				$blog_image=($rows[$k]['blog_image']);
+				$blog_author=($rows[$k]['blog_author']);
+				$publish_date=($rows[$k]['published_date']);
+				$publish_date = date("d M Y", strtotime($publish_date));
+				// $publish_date = strtoupper($publish_date);
+				$url = strtolower(replace_spaces($rows[$k]['blog_title']));
+			    // $publish_date = strtoupper($publish_date);
+			
+				$image_link = $actual_link. "/data-center/data?src=".$blog_image;
+			?>
+				<div class="post" title="<?= $blog_title?>">
+					<div class="image-section">
+						<a href="blog/article/<?=$blog_technology?>/<?= $url?>/<?=$blogid?>">
+							<img class="img-responsive" src="<?= $image_link?> " alt="<?=$rows[$k]['blog_title']?>">
+						</a>
+					</div>
+					<div class="title-section">
+						<a href="blog/article/<?=$blog_technology?>/<?= $url?>/<?=$blogid?>">
+							<h2 class="new-index-h2"> <?= $blog_title ?></h2>
+							<p >
+								<?= $blog_shortdetails ?>
+							</p>
+						</a>
+					</div>
+					<div class="author-section">
+						Ejaz Shaikh | <?=$publish_date?>
+					</div>
+				</div>
+			<?php } ?>
+            <div class="post">
+					<div class="view-more">
+						<a href="blog">
+                            <h3>View More</h3></a>
+					</div>
+				</div>
+
+        </div>
     </div>
 </section>
 

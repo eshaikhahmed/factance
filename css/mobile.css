@@ -14,4 +14,11 @@
     .nothing {
         margin-bottom: 10px;
     }
+
+    .blog-container{
+        flex-direction: column;
+    }
+    .blog-container .post {
+        width: 100%;
+    }
 }

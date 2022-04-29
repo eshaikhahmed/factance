@@ -188,3 +188,37 @@ textarea:hover{
     padding: 20px;
     margin-bottom: 10px; 
 }
+
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-container .post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid #1B2C3D;
+    padding: 10px;
+    width: 30%;
+}
+
+.blog-container .post a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.blog-container .post:hover {
+    border: 1px solid #007ACC;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.view-more{
+   text-align: center;
+}
