@@ -54,10 +54,13 @@
                   <a class="nav-link" href="index.php">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="index.php#product_section">Products</a>
+                  <a class="nav-link" href="products.php">Products</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="index.php#blog_section">Blogs</a>
+                  <a class="nav-link" href="pricing.php">Pricing</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="blog/">Blogs</a>
                </li>
               
             </ul>

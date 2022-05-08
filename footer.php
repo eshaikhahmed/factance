@@ -5,11 +5,12 @@
                   <h3>Company</h3>
                   <ul class="list-group list-group-flush">
                      <li class="list-group-item" style="background:none;border:none;padding:5px;">
+                        <a class="dosti-link" href="products.php">Products</a>
+                     </li>
+                     <li class="list-group-item" style="background:none;border:none;padding:5px;">
                       <a class="dosti-link" href="index.php#about-section">About</a>
                      </li>
-                     <!-- <li class="list-group-item" style="background:none;border:none;padding:5px;">
-                        <a class="dosti-link" href="#contact-section">Contact</a>
-                     </li> -->
+
                   </ul>
                </div>
                <div class="col-md-4">
